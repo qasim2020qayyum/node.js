@@ -1,0 +1,94 @@
+node 
+REPL  ( just write node it will start) press tab 2 times ) then find the rest ok the things
+or just go to nodejs.org
+
+
+
+FS	fs.writeFileSync()		to write in file and make new file
+	fs.appendFileSync()		to update data in the file 
+	fs.readFileSync()			to read the daya from file but it will give buffer data
+	toString()				to convert buffer data to string
+	fs.renameSync()			to rename the file 
+	fs.unlinkSync()			to delete the file 
+	fs.mkdirSync()			make folder
+	fs.rmdirSync()			delete folder
+
+
+
+in sab ma call back function hota ha osko call krna he parta ha
+
+
+FS	
+fs.writeFile("new file.txt", "qasim", (err)=> {
+    console.log("asdfas");
+})		to write in file and make new file
+
+	fs.appendFile("new file.txt", "jaskhfkjsaf", (err)=>{
+    console.log("done");
+})		to update data in the file 
+
+	fs.readFile("new file.txt", "utf-8", (err, data)=>{
+    console.log(data);
+} )			to read the daya from file but it will give buffer data
+
+	toString()				to convert buffer data to string
+	fs.rename()			to rename the file 
+	fs.unlink()			to delete the file 
+	fs.mkdir()			make folder
+	fs.rmdir()			delete folder
+
+
+
+
+OS 
+console.log(os.arch()); 		to check architecture
+
+https://nodejs.org/api/os.html     all operating system documentation
+
+
+
+npm 
+npm init
+
+
+
+
+wrapper module
+
+
+https://www.npmjs.com/package/wrapper
+
+
+
+url module
+
+https://nodejs.org/api/url.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////   weather website   /////////////////////////////
+
+
+
